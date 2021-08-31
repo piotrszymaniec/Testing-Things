@@ -1,6 +1,6 @@
 name: 🆕  Feature Request
 description: Suggest an idea for VirtualCoffee.io.
-title: '[Feature]: '
+title: ''
 labels: ['Type: enhancement', 'Status: Needs Triage']
 body:
   - type: markdown
