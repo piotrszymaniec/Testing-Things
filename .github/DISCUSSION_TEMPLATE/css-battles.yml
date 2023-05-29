@@ -55,11 +55,9 @@ body:
         </details>        
     validations:
       required: true
- - type: checkboxes
-    id: terms
+  - type: checkboxes    
     attributes:
-      label: Code of Conduct
-      description: By submitting this issue, you agree to follow our [Code of Conduct](https://virtualcoffee.io/code-of-conduct/)
+      label: Code of Conduct      
       options:
         - label: I've read the Code of Conduct and understand my responsibilities as a member of the Virtual Coffee community
           required: true
