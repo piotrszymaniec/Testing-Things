@@ -43,3 +43,15 @@ body:
         ```    
     validations:
       required: true                          
+  - type: textarea    
+    attributes:
+      label: "What others will see"
+      description: Showcase
+      value: |        
+        This will result in a nice hidden bit like so:<br />
+        <details>
+        <summary>Description – <strong>score {characters}</strong></summary><br />            
+        Your CSSBattles.dev code here!        
+        </details>        
+    validations:
+      required: true
