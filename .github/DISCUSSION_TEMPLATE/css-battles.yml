@@ -42,8 +42,7 @@ body:
         </details>
         ```    
     validations:
-      required: true
-                
+      required: true                
  - type: checkboxes    
     attributes:
       label: Are title and battle link updated?
