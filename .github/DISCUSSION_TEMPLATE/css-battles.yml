@@ -7,13 +7,13 @@ body:
       label: Link to battle
       description: Replace number with current battle number
       placeholder: https//cssbatle.dev/play/number
-      value: | 
+      value: |
        [Lets battle!](https://cssbattle.dev/play/number)
     validations:
       required: true
-  - type: textarea    
+  - type: textarea
     attributes:
-      label: "Let's see the solutions! - copy code and paste into your msg"
+      label: Let's see the solutions! - copy code and paste into your msg
       description: Solution template for players
       placeholder: |
         ```html
@@ -23,7 +23,7 @@ body:
 
         <!-- remove + character -->
         +```html
-        Your CSSBattles.dev code here!
+        Your CSSBattles.dev code here! ⚔️
         +```
 
         </details>
@@ -36,35 +36,29 @@ body:
 
         <!-- remove + character -->
         +```html
-        Your CSSBattles.dev code here!
+        Your CSSBattles.dev code here! ⚔️
         +```
 
         </details>
-        ```    
-    validations:
-      required: true                          
-  - type: textarea    
-    attributes:
-      label: "What others will see"
-      description: Showcase
-      value: |        
-        This will result in a nice hidden bit like so:<br />
-        <details>
-        <summary>Description – <strong>score {characters}</strong></summary><br />            
-        Your CSSBattles.dev code here!        
-        </details>        
+        ```
     validations:
       required: true
-  - type: checkboxes    
+  - type: textarea
     attributes:
-      label: Code of Conduct      
-      options:
-        - label: I've read the Code of Conduct and understand my responsibilities as a member of the Virtual Coffee community
-          required: true
+      label: What others will see
+      description: Solution showcase
+      value: |
+        This will result in a nice hidden bit like so:<br />
+        <details>
+        <summary>Description – <strong>score {characters}</strong></summary><br />
+        Your CSSBattles.dev code here! ⚔️
+        </details>
+    validations:
+      required: true
   - type: checkboxes
     id: terms
     attributes:
       label: Is battle link number and battle title number the same?
       options:
-        - label: I've checked 
+        - label: "Yes"
           required: true
