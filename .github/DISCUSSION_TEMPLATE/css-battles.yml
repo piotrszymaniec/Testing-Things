@@ -43,3 +43,11 @@ body:
         ```    
     validations:
       required: true
+                
+ - type: checkboxes    
+    attributes:
+      label: Are title and battle link updated?
+      description: ""
+      options:
+        - label: "Yes"
+          required: true               
