@@ -58,7 +58,7 @@ body:
   - type: checkboxes
     id: terms
     attributes:
-      label: Is battle link number and battle title number the same?
+      label: Are battle link number and battle title number the same?
       options:
         - label: "Yes"
           required: true
