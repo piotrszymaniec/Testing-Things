@@ -10,11 +10,13 @@ body:
     validations:
       required: true
   - type: input
-    id: name
+    id: link
     attributes:
-      label: Problem Name
-      description: The name of the problem being discussed
-      placeholder: Problem name
+      label: battle Link
+      description: Link to battle
+      placeholder: https//cssbatle.dev/play/number
+      value: | 
+       [Lets battle!](https://cssbatle.dev/play/number)
     validations:
       required: true
   - type: markdown
