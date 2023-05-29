@@ -8,7 +8,7 @@ body:
       description: Replace number with current battle number
       placeholder: https//cssbatle.dev/play/number
       value: |
-       [Lets battle!](https://cssbattle.dev/play/number)
+       [Lets battle! ⚔️](https://cssbattle.dev/play/number)
     validations:
       required: true
   - type: textarea
