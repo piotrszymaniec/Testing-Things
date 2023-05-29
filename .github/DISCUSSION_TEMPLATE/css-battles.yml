@@ -4,8 +4,8 @@ body:
   - type: input
     id: link
     attributes:
-      label: battle Link
-      description: Link to battle
+      label: Link to battle
+      description: Replace number with current battle number
       placeholder: https//cssbatle.dev/play/number
       value: | 
        [Lets battle!](https://cssbatle.dev/play/number)
