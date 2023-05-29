@@ -45,8 +45,7 @@ body:
       required: true                
  - type: checkboxes    
     attributes:
-      label: Are title and battle link updated?
-      description: ""
+      label: Are title and battle link updated?      
       options:
         - label: "Yes"
           required: true               

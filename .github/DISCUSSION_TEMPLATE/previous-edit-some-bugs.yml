@@ -1,0 +1,68 @@
+title: "CSS Battle #number – name"
+labels: ["CSS Battles"]
+body:
+  - type: input
+    id: number
+    attributes:
+      label: Battle Link
+      description: link to battle
+      placeholder: https//cssbatle.dev/play/<number>
+      value: | 
+       [Lets battle!](https://cssbatle.dev/play/number)
+    validations:
+      required: true
+  - type: textarea    
+    attributes:
+      label: "Let's see the solutions! - copy code and paste into your msg"
+      description: Your solution
+      placeholder: |
+        ```html
+        <details>
+        <summary>Description – <strong>score {characters}</strong></summary><br />
+        <!-- Has to be followed by an empty line! -->
+
+        <!-- remove + character -->
+        +```html
+        Your CSSBattles.dev code here!
+        +```
+
+        </details>
+        ```
+      value: |
+        ```html
+        <details>
+        <summary>Description – <strong>score {characters}</strong></summary><br />
+        <!-- Has to be followed by an empty line! -->
+
+        <!-- remove + character -->
+        +```html
+        Your CSSBattles.dev code here!
+        +```
+
+        </details>
+        ```
+    render: html
+    validations:
+      required: true
+  - type: checkboxes
+    attributes:
+      label: ""
+      value: |
+        ## Remember to double check if two of them matches
+         - <number> of battle in discussion post title
+         - <number> in link in input field
+  - type: textarea     
+    attributes:
+      description: Preview for battle players
+      value: |
+            <!-- When posting your answers, you can save members from being spoiled by wrapping your code in the following: -->
+
+            <details>
+            <summary>Description – <strong>score {characters}</strong></summary><br />
+            <!-- Has to be followed by an empty line! -->
+
+            ```html
+            Your CSSBattles.dev code here!
+            ```
+            </details>      
+            Feel free to copy/paste the above code into a comment!
