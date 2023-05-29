@@ -11,3 +11,35 @@ body:
        [Lets battle!](https://cssbatle.dev/play/number)
     validations:
       required: true
+  - type: textarea    
+    attributes:
+      label: "Let's see the solutions! - copy code and paste into your msg"
+      description: Solution template for players
+      placeholder: |
+        ```html
+        <details>
+        <summary>Description – <strong>score {characters}</strong></summary><br />
+        <!-- Has to be followed by an empty line! -->
+
+        <!-- remove + character -->
+        +```html
+        Your CSSBattles.dev code here!
+        +```
+
+        </details>
+        ```
+      value: |
+        ```html
+        <details>
+        <summary>Description – <strong>score {characters}</strong></summary><br />
+        <!-- Has to be followed by an empty line! -->
+
+        <!-- remove + character -->
+        +```html
+        Your CSSBattles.dev code here!
+        +```
+
+        </details>
+        ```    
+    validations:
+      required: true
