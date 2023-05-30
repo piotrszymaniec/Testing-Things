@@ -55,10 +55,3 @@ body:
         </details>
     validations:
       required: true
-  - type: checkboxes
-    id: terms
-    attributes:
-      label: Are battle link number and battle title number the same?
-      options:
-        - label: "Yes"
-          required: true
