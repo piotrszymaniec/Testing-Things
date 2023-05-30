@@ -13,8 +13,11 @@ body:
   - type: markdown
     attributes:
       value: |
-        **That's all you can now click that "Start Discussion" button** :smile:
+        --
+        **That's all you can now click that "Start Discussion" button** :smile:  
+          
         **Please note:** Don't change text areas - they need to stay that way to be visible after creating discussion
+        --
   - type: textarea
     attributes:
       label: Let's see the solutions! - copy code and paste into your msg
