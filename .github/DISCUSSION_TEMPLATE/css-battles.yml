@@ -1,33 +1,24 @@
-title: "CSS Battle #<number> – <Problem Name>"
+title: "CSS Battle #NUMBER – NAME"
 labels: ["CSS Battles"]
 body:
   - type: input
     id: link
     attributes:
       label: Link to battle
-      description: Replace number with current battle number
-      placeholder: https//cssbatle.dev/play/number
+      description: Replace number with current battle number      
       value: |
-       [Lets battle! ⚔️](https://cssbattle.dev/play/number)
+       [Lets battle! ⚔️](https://cssbattle.dev/play/NUMBER)
     validations:
       required: true
+  - markdown:
+      attributes:
+        value: |
+          ### That's all you can now click that "Start Discussion" button :smile:
+          **Please note:** Don't change text areas - they need to stay that way to be visible after creating discussion
   - type: textarea
     attributes:
       label: Let's see the solutions! - copy code and paste into your msg
       description: Solution template for players
-      placeholder: |
-        ```html
-        <details>
-        <summary>Description – <strong>score {characters}</strong></summary><br />
-        <!-- Has to be followed by an empty line! -->
-
-        <!-- remove + character -->
-        ```html
-        Your CSSBattles.dev code here! ⚔️
-        ```
-
-        </details>
-        ```
       value: |
         ```html
         <details>
@@ -35,9 +26,9 @@ body:
         <!-- Has to be followed by an empty line! -->
 
         <!-- remove + character -->
-        ```html
+        +```html
         Your CSSBattles.dev code here! ⚔️
-        ```
+        +```
 
         </details>
         ```
@@ -46,7 +37,7 @@ body:
   - type: textarea
     attributes:
       label: What others will see
-      description: Solution showcase
+      description: Solution preview
       value: |
         This will result in a nice hidden bit like so:<br />
         <details>
