@@ -22,9 +22,9 @@ body:
         <!-- Has to be followed by an empty line! -->
 
         <!-- remove + character -->
-        +```html
+        ```html
         Your CSSBattles.dev code here! ⚔️
-        +```
+        ```
 
         </details>
         ```
@@ -35,9 +35,9 @@ body:
         <!-- Has to be followed by an empty line! -->
 
         <!-- remove + character -->
-        +```html
+        ```html
         Your CSSBattles.dev code here! ⚔️
-        +```
+        ```
 
         </details>
         ```
