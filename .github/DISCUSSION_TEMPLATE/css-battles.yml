@@ -10,7 +10,7 @@ body:
        [Lets battle! ⚔️](https://cssbattle.dev/play/NUMBER)
     validations:
       required: true
-  - markdown:
+  - type: markdown
       attributes:
         value: |
           ### That's all you can now click that "Start Discussion" button :smile:
