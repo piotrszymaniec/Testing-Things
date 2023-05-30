@@ -12,8 +12,7 @@ body:
       required: true
   - type: markdown
     attributes:
-      value: |
-        ---
+      value: |        
         **That's all you can now click that "Start Discussion" button** :smile:            
         **Please note:** Don't change text areas - they need to stay that way to be visible after creating discussion
         ---
