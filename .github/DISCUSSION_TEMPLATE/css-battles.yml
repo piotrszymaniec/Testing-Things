@@ -17,7 +17,7 @@ body:
         **Please note:** Don't change text areas - they need to stay that way to be visible after creating discussion
   - type: textarea
     attributes:
-      label: Let's see the solutions! - copy code and paste into your msg
+      label:  "Let's see your solutions! When posting your answers, you can save members from being spoiled by using the code block below to format your comment on the discussion thread:"
       description: Solution template for players
       value: |
         ```html
