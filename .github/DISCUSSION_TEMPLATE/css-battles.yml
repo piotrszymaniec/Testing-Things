@@ -1,4 +1,4 @@
-title: "CSS Battle #<number> – <Problem Name>"
+title: "CSS Battle #NUMBER – NAME"
 labels: ["CSS Battles"]
 body:
   - type: input
@@ -7,7 +7,7 @@ body:
       label: Link to battle
       description: Replace number with current battle number      
       value: |
-       [Lets battle! ⚔️](https://cssbattle.dev/play/number)
+       [Lets battle! ⚔️](https://cssbattle.dev/play/NUMBER)
     validations:
       required: true
   - type: textarea
